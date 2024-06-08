@@ -1,0 +1,84 @@
+.fondo  {
+    background-color: aqua;
+}
+#Principal{
+    font-weight: 800;
+    font-style: italic;
+    border-bottom-left-radius: 7rem;
+    color: firebrick;
+    font: bolder; align-content: center;
+    margin-left: 8cm;
+}
+.table{
+    border-radius: 6rem;
+    margin: auto;
+    background-position: 20%;
+    text-align: center;
+    padding-left: 50px;
+    border: 15px ;
+    padding: 10rem, 5rem, 2rem, 5rem;
+}
+.boton{
+    border-bottom: 0rem;
+    border-radius: 0cm;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-display: 7px;
+    background-color: gray;
+}
+.miTexto{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-left: 8cm;
+    font: bolder; align-content: center;
+}
+#Titulo{
+    font-style: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 8cm;
+    font: bolder; align-content: center;
+    width: 60%;
+}
+.Logo{
+    border-radius: 6rem;
+    right: 50%;
+
+}
+.celda{
+    text-align: center;
+    width: 60em;
+    border-top: 0rem;
+    padding: 10rem, 5rem, 2rem, 5rem;
+   
+}
+.subtitulo{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.td {
+    border: 1px black 1 px solid;
+    column-width: 50rem;
+    padding: 10rem;
+    align-items: center;
+    flex-direction: row;
+   empty-cells: hide;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-position-x: 60%;
+}
+
+#texto:hover{
+    background-color: blueviolet;
+    transition: 2s;
+    padding: 2em;
+    text-align: center;
+    width: 85%;
+}
+
+.checkbox ::after{
+    padding-right: 6cm;
+    column-width: auto;
+}
